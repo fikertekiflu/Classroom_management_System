@@ -30,6 +30,4 @@ This project is a JavaFX application developed using Maven for managing classroo
 git clone https://github.com/your-username/classroom-management-system.git
 cd classroom-management-system
 
-##Configure the Database
-Create a MySQL database:
-CREATE DATABASE classroom_management;
+
