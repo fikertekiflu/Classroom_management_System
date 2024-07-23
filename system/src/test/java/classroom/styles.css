@@ -1,0 +1,67 @@
+/* styles.css */
+
+/* Styles for the title label */
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333; /* Dark gray text color */
+    -fx-padding-bottom: 20px; /* Add some padding below the title */
+}
+
+/* Styles for the login button */
+.login-button {
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+}
+.dashboard-button {
+    -fx-padding: 15px 30px;
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.form-button {
+    -fx-padding: 10px 20px;
+    -fx-font-size: 12px;
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+/* Styles for the form labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #666666; /* Medium gray text color */
+    -fx-min-width: 100px; /* Minimum width for labels */
+}
+
+/* Styles for text fields */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-pref-width: 20px; /* Preferred width */
+}
+
+/* Styles for password fields */
+.password-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-pref-width: 20px; /* Preferred width */
+}
+
+/* Container styles */
+.container {
+    -fx-background-image: url('https://image.slidesdocs.com/responsive-images/background/classroom-classroom-blackboard-partial-close-up-powerpoint-background_ef79686c1d__960_540.jpg'); /* URL to your background image */
+    -fx-background-size: cover; /* Ensure the background image covers the whole container */
+    -fx-background-repeat: no-repeat; /* Prevent the background image from repeating */
+    -fx-background-position: center center; /* Center the background image */
+}
